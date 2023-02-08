@@ -60,17 +60,9 @@ export const vsCodeDarkPlusTheme = EditorView.theme(
     '.cm-activeLine': { backgroundColor: highlightBackground },
     '.cm-selectionMatch': { backgroundColor: '#aafe661a' },
 
-    '&.cm-editor': {
-      borderRadius: '5px',
-    },
-
     '&.cm-editor .cm-scroller': {
       fontFamily:
         'Menlo, Monaco, Consolas, "Andale Mono", "Ubuntu Mono", "Courier New", monospace',
-    },
-
-    '&.cm-editor.cm-focused': {
-      outline: '5px solid #808080',
     },
 
     '&.cm-focused .cm-matchingBracket, &.cm-focused .cm-nonmatchingBracket': {
@@ -82,7 +74,6 @@ export const vsCodeDarkPlusTheme = EditorView.theme(
       backgroundColor: background,
       color: '#858585',
       border: 'none',
-      borderRadius: '5px',
     },
 
     '.cm-activeLineGutter': {
